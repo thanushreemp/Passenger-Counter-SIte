@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    background-image: url(/img/coffee.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    opacity: .7;
+    z-index: 0;
+}
+
+section h1, section h2{
+    text-align: center;
+    align-content: center;
+    padding-top: 80px;
+    font-size: 70px;
+    
+}
+
+section h2{
+    padding-top: 40px;
+
+}
+
+button{
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    border: 1.5px solid black;
+    border-radius: 8px;
+    font-size: 28px;
+    cursor: pointer;
+    margin-left: 690px;
+    margin-top: 25px;
+    padding: 10px;
+    color: white;
+}
+
+#increment-btn{
+    background-color: darkred;
+}
+
+#save-btn{
+    background-color: darkgreen;
+    margin-left: 716px;
+    padding: 10px 15px 10px 15px;
+}
+
+#save-el{
+    font-size: 32px;
+    text-align: center;
+    margin-top: 12px;
+}
